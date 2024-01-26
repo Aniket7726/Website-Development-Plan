@@ -29,7 +29,7 @@ nav li a {
 
 .home {
   background-color: #f3f3f4;
-  padding: 40px 0px;
+  padding: 100px 0px;
   overflow: hidden;
 }
 .home h6 {
@@ -130,6 +130,87 @@ nav li a {
   color: white;
 }
 
+.stream {
+  background-color: #282a37;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+.stream h2 {
+  font-size: 40px;
+  color: white;
+  font-family: rift-regular;
+}
+.stream button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.stream button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
+}
+
+.price {
+  background-color: #f3f3f4;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.price h1 {
+  font-size: 80px;
+  font-family: rift-regular;
+  text-align: center;
+  font-weight: 600;
+}
+.price .col_box {
+  background-color: #282a37;
+  padding: 40px 20px;
+  border-radius: 30px;
+  height: 100%;
+}
+.price .col_box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: rift-regular;
+  color: white;
+}
+.price .col_box span {
+  font-size: 50px;
+  color: #ffa800;
+}
+.price .col_box p {
+  font-size: 18px;
+  font-family: outfit-regular;
+  font-weight: 600;
+  color: white;
+}
+.price .col_box li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.price .col_box button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.price .col_box button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
+}
+
 .contact {
   background-color: #282a37;
   padding: 40px 0px;
@@ -186,6 +267,29 @@ nav li a {
   width: fit-content;
 }
 .contact .form_box button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 3px;
+  right: 0px;
+  z-index: 1000;
+}
+.fixed-btn button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.fixed-btn button a {
   text-decoration: none;
   color: white;
   font-family: 16px;

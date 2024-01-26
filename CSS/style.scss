@@ -73,7 +73,7 @@ nav{
 
 .home{
     background-color: $sectionbg;
-    padding: 40px 0px;
+    padding: 100px 0px;
     overflow: hidden;
     h6{
         font-family: $fonthead;
@@ -153,6 +153,67 @@ nav{
 
 }
 
+.stream{
+    background-color: $boxbg;
+    padding: 50px 0px;
+    overflow: hidden;
+    h2{
+        font-size: $headfont;
+        color: $whitecolor;
+        font-family: $fonthead;
+    }
+    button{
+        @include button_appear();
+        a{
+            @include a_button();
+        }
+    }
+}
+
+.price{
+    background-color: $sectionbg;
+    padding: 40px 0px;
+    overflow: hidden;
+    h1{
+        font-size: $bigfont;
+        font-family: $fonthead;
+        text-align: center;
+        font-weight: 600;
+    }
+    .col_box{
+        background-color: $boxbg;
+        padding: 40px 20px;
+        border-radius: 30px;
+        height: 100%;
+        h2{
+            font-size: $headfont;
+            font-weight: 700;
+            font-family: $fonthead;
+            color: $whitecolor;
+        }
+        span{
+            font-size: 50px;
+            color: $font-color;
+        }
+        p{
+            font-size: $parafont;
+            font-family: $fontpara;
+            font-weight: 600;
+            color: $whitecolor;
+        }
+        li{
+            list-style: none;
+            padding: 10px 0px;
+        }
+        button{
+            @include button_appear();
+            a{
+                @include a_button();
+            }
+        }
+    }
+}
+
 .contact{
     background-color: $boxbg;
     padding: 40px 0px;
@@ -201,6 +262,19 @@ nav{
             a{
                 @include a_button();
             }
+        }
+    }
+}
+
+.fixed-btn{
+    position: fixed;
+    bottom: 3px;
+    right: 0px;
+    z-index: 1000;
+    button{
+        @include button_appear();
+        a{
+            @include a_button();
         }
     }
 }
