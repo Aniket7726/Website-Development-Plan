@@ -36,7 +36,7 @@ nav li a {
   font-family: rift-regular;
   font-size: 32px;
   font-weight: 400;
-  color: #ffa800;
+  color: #bd8a32;
 }
 .home h1 {
   font-family: rift-regular;
@@ -51,7 +51,7 @@ nav li a {
   color: #4f4f4f;
 }
 .home button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
@@ -75,7 +75,7 @@ nav li a {
   font-size: 20px;
   font-family: rift-regular;
   font-weight: 600;
-  color: #ffa800;
+  color: #bd8a32;
 }
 .about h1 {
   font-size: 80px;
@@ -89,7 +89,7 @@ nav li a {
   flex-direction: column;
 }
 .about .col-lg-5 button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
@@ -141,7 +141,7 @@ nav li a {
   font-family: rift-regular;
 }
 .stream button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
@@ -182,7 +182,7 @@ nav li a {
 }
 .price .col_box span {
   font-size: 50px;
-  color: #ffa800;
+  color: #bd8a32;
 }
 .price .col_box p {
   font-size: 18px;
@@ -195,7 +195,7 @@ nav li a {
   padding: 10px 0px;
 }
 .price .col_box button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
@@ -220,7 +220,7 @@ nav li a {
 }
 .contact h1 {
   font-size: 80px;
-  color: #ffa800;
+  color: #bd8a32;
   font-family: rift-regular;
   font-family: 600;
 }
@@ -233,7 +233,7 @@ nav li a {
   font-weight: 600;
 }
 .contact h5 span {
-  color: #ffa800;
+  color: #bd8a32;
 }
 .contact p {
   font-family: outfit-regular;
@@ -257,7 +257,7 @@ nav li a {
   border: 2px solid #282a37;
 }
 .contact .form_box button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
@@ -280,7 +280,7 @@ nav li a {
   z-index: 1000;
 }
 .fixed-btn button {
-  background-color: #ffa800;
+  background-color: #bd8a32;
   font-size: 18px;
   font-family: 16px;
   padding: 8px 15px;
