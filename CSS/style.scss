@@ -152,3 +152,55 @@ nav{
     }
 
 }
+
+.contact{
+    background-color: $boxbg;
+    padding: 40px 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+    h1{
+        font-size: $bigfont;
+        color: $font-color;
+        font-family: $fonthead;
+        font-family: 600;
+    }
+    h5{
+        font-family: $fonthead;
+        font-size: $headfont;
+        color: $whitecolor;
+        font-family: $fonthead;
+        width: 80%;
+        font-weight: 600;
+        span{
+            color: $font-color;
+        }
+    }
+    p{
+        font-family: $fontpara;
+        font-size: $parafont;
+        color: $whitecolor;
+        width: 80%;
+    }
+    .form_box{
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 50px;
+        label{
+            font-family: $fontparamedium;
+            font-size: $parafont;
+        }
+        input{
+            border: 2px solid $boxbg;
+        }
+        textarea{
+            border: 2px solid $boxbg;
+        }
+        button{
+            @include button_appear();
+            a{
+                @include a_button();
+            }
+        }
+    }
+}

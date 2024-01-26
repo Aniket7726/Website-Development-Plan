@@ -128,4 +128,66 @@ nav li a {
 .why .col_box p {
   font-family: 18px;
   color: white;
+}
+
+.contact {
+  background-color: #282a37;
+  padding: 40px 0px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  overflow: hidden;
+}
+.contact h1 {
+  font-size: 80px;
+  color: #ffa800;
+  font-family: rift-regular;
+  font-family: 600;
+}
+.contact h5 {
+  font-family: rift-regular;
+  font-size: 40px;
+  color: white;
+  font-family: rift-regular;
+  width: 80%;
+  font-weight: 600;
+}
+.contact h5 span {
+  color: #ffa800;
+}
+.contact p {
+  font-family: outfit-regular;
+  font-size: 18px;
+  color: white;
+  width: 80%;
+}
+.contact .form_box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 50px;
+}
+.contact .form_box label {
+  font-family: outfit-medium;
+  font-size: 18px;
+}
+.contact .form_box input {
+  border: 2px solid #282a37;
+}
+.contact .form_box textarea {
+  border: 2px solid #282a37;
+}
+.contact .form_box button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contact .form_box button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
