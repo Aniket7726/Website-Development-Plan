@@ -1,0 +1,154 @@
+@font-face {
+    font-family: outfit-regular;
+    src: url(../outfit/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit-medium;
+    src: url(../outfit/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: outfit-semibold;
+    src: url(../outfit/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: outfit-black;
+    src: url(../outfit/Outfit-Black.ttf);
+}
+
+@font-face {
+    font-family: rift-regular;
+    src: url(../rift/Rift-Regular.otf);
+}
+
+
+$fonthead: rift-regular;
+$fontpara: outfit-regular;
+$fontparamedium: outfit-medium;
+$fontparablack: outfit-black;
+$parafont: 18px;
+$afont: 16px;
+$sectionbg: #f3f3f4;
+$headfont: 40px;
+$bigfont: 80px;
+$font-color: #ffa800;
+$para-color: #4f4f4f;
+$button-bg: #ffa800;
+$whitecolor: #ffff;
+$boxbg: #282a37;
+
+@mixin button_appear{
+    background-color: $button-bg;
+    font-size: $parafont;
+    font-family: $afont;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+@mixin a_button{
+    text-decoration: none;
+    color: #ffff;
+    font-family: $afont;
+    font-weight: 500;
+}
+
+@mixin box_appear{
+    background-color: $boxbg;
+    padding: 30px 20px;
+    height: 100%;
+}
+
+nav{
+    background-color: #11161e;
+    li a{
+        font-family: $fontparamedium;
+        font-size: $afont;
+        color: #fff !important;
+    }
+}
+
+.home{
+    background-color: $sectionbg;
+    padding: 40px 0px;
+    overflow: hidden;
+    h6{
+        font-family: $fonthead;
+        font-size: 32px;
+        font-weight: 400;
+        color: $font-color;
+    }
+    h1{
+        font-family: $fonthead;
+        font-size: $bigfont;
+        font-weight: 700;
+        color: #282a37;
+    }
+    p{
+        font-size: $parafont;
+        font-family: $fontpara;
+        font-weight: 400;
+        color: $para-color;
+    }
+    button{
+        @include button_appear();
+        a{
+            @include a_button();
+        }
+    }
+}
+
+.about{
+    padding: 40px 0px;
+    overflow: hidden;
+    h6{
+        font-size: 20px;
+        font-family: $fonthead;
+        font-weight: 600;
+        color: $font-color;
+    }
+    h1{
+        font-size: $bigfont;
+        font-family: $fonthead;
+        color: $para-color;
+        font-weight: 600;
+    }
+    .col-lg-5{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        button{
+            @include button_appear();
+            a{
+                @include a_button();
+            }
+        }
+        p{
+            font-size: $parafont;
+            font-family: $fontpara;
+            font-weight: 400;
+            color: $para-color;
+        }
+    }
+}
+
+.why{
+    padding: 20px 0px;
+    .col_box{
+        @include box_appear();
+        h3{
+            font-family: $fonthead;
+            color: $whitecolor;
+            font-weight: 600;
+            font-size: $headfont;
+        }
+        p{
+            font-family: $parafont;
+            color: $whitecolor;
+        }
+    }
+
+}

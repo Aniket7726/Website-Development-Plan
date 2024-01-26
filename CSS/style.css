@@ -1,0 +1,131 @@
+@font-face {
+  font-family: outfit-regular;
+  src: url(../outfit/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: outfit-medium;
+  src: url(../outfit/Outfit-Medium.ttf);
+}
+@font-face {
+  font-family: outfit-semibold;
+  src: url(../outfit/Outfit-SemiBold.ttf);
+}
+@font-face {
+  font-family: outfit-black;
+  src: url(../outfit/Outfit-Black.ttf);
+}
+@font-face {
+  font-family: rift-regular;
+  src: url(../rift/Rift-Regular.otf);
+}
+nav {
+  background-color: #11161e;
+}
+nav li a {
+  font-family: outfit-medium;
+  font-size: 16px;
+  color: #fff !important;
+}
+
+.home {
+  background-color: #f3f3f4;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.home h6 {
+  font-family: rift-regular;
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffa800;
+}
+.home h1 {
+  font-family: rift-regular;
+  font-size: 80px;
+  font-weight: 700;
+  color: #282a37;
+}
+.home p {
+  font-size: 18px;
+  font-family: outfit-regular;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.home button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.home button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
+}
+
+.about {
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.about h6 {
+  font-size: 20px;
+  font-family: rift-regular;
+  font-weight: 600;
+  color: #ffa800;
+}
+.about h1 {
+  font-size: 80px;
+  font-family: rift-regular;
+  color: #4f4f4f;
+  font-weight: 600;
+}
+.about .col-lg-5 {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.about .col-lg-5 button {
+  background-color: #ffa800;
+  font-size: 18px;
+  font-family: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.about .col-lg-5 button a {
+  text-decoration: none;
+  color: white;
+  font-family: 16px;
+  font-weight: 500;
+}
+.about .col-lg-5 p {
+  font-size: 18px;
+  font-family: outfit-regular;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.why {
+  padding: 20px 0px;
+}
+.why .col_box {
+  background-color: #282a37;
+  padding: 30px 20px;
+  height: 100%;
+}
+.why .col_box h3 {
+  font-family: rift-regular;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+.why .col_box p {
+  font-family: 18px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
