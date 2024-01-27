@@ -23,7 +23,6 @@
     src: url(../rift/Rift-Regular.otf);
 }
 
-
 $fonthead: rift-regular;
 $fontpara: outfit-regular;
 $fontparamedium: outfit-medium;
@@ -39,7 +38,7 @@ $button-bg: #bd8a32;
 $whitecolor: #ffff;
 $boxbg: #282a37;
 
-@mixin button_appear{
+@mixin button_appear(){
     background-color: $button-bg;
     font-size: $parafont;
     font-family: $afont;
@@ -49,14 +48,14 @@ $boxbg: #282a37;
     width: fit-content;
 }
 
-@mixin a_button{
+@mixin a_button(){
     text-decoration: none;
     color: #ffff;
     font-family: $afont;
     font-weight: 500;
 }
 
-@mixin box_appear{
+@mixin box_appear(){
     background-color: $boxbg;
     padding: 30px 20px;
     height: 100%;
